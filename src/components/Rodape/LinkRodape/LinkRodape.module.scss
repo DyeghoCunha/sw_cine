@@ -1,0 +1,20 @@
+@import '../../../styles/variaveis';
+
+
+.link{
+  display: flex;
+  width: auto;
+  border: 2px wheat;
+  justify-content: center;
+  align-items: center;
+  margin-right: 100px;
+  gap: 5px;
+  text-decoration: none;
+  color: $colorCard;
+}
+
+.icone{
+  width: 30px;
+  height: 30px;
+  
+}

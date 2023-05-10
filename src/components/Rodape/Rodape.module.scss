@@ -1,0 +1,44 @@
+@import '../../styles/variaveis';
+
+body{
+  
+}
+
+.rodapeContainer{
+
+  width: 100vw;
+  color: $colorCard;
+  background-color: $colorDarkSW_op;
+  height: auto;
+  padding: 10px;
+  
+
+}
+.rodape{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.linkContainer{
+  display: flex;
+  flex-direction: column;
+}
+
+.link{
+  display: flex;
+  width: auto;
+  border: 2px wheat;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  gap: 5px;
+  text-decoration: none;
+  color: $colorCard;
+}
+
+.icone{
+  width: 30px;
+  height: 30px;
+}

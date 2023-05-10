@@ -1,0 +1,72 @@
+@import '../../styles/variaveis';
+
+.cardContainer{
+  position: relative;
+  
+
+}
+
+.card{
+
+  position: absolute;
+  width: 203.5px;
+ 
+ 
+  margin: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background-color: $colorCard;
+}
+
+.cardFoto{
+  width: 203.5px;
+  height: 300px;
+}
+
+
+.favorito{
+  position: inherit;
+  width: calc(54px/1.5);
+  
+  margin: 3px;
+ 
+  
+}
+
+.tituloContainer{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 60px;
+  align-items: center;
+ 
+
+  
+}
+
+.titulo{
+  color: $colorDarkSW;
+  padding: 0px;
+  
+  font-family: $fonte-bold-SW;
+  
+  padding-right: 50px;
+  font-size: 1.5em;
+  
+  
+}
+.subTitulo{
+  box-sizing: border-box;
+  color: $colorCard;
+  padding: 4px;
+  width: 100%;
+  height: 50px;
+  font-family: $fonte-bold;
+  background-color: black;
+  border-radius: 0px 0px 8px 8px;
+
+}
