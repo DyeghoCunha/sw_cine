@@ -1,6 +1,7 @@
 import styles from './Card.module.scss';
 import iconeFavoritar from './favoritar.png'
 
+
 import React from 'react'
 
 export default function Card({id,titulo,subtitulo,capa}) {
@@ -18,7 +19,7 @@ export default function Card({id,titulo,subtitulo,capa}) {
 
         </div>
 
-        <img className={styles.cardFoto} url={`https://github.com/DyeghoCunha/sw_cine/blob/master/src/assets/imagem/sw-cards/1.png`} alt="" />
+        <img className={styles.cardFoto} src={capa} alt="" />
 
         <h3 className={styles.subTitulo}>{subtitulo}</h3>
 
