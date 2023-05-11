@@ -1,2 +1,28 @@
 @import '../../styles/variaveis';
 
+.container{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+
+ 
+}
+.container h1{
+  color: $colorDarkSW;
+  font-family: $fonte-bold-SW;
+  font-size: 34px;
+  margin-top: 20px;
+}
+.foguete{
+
+  height: 45vh;
+
+}
+
+.container p{
+  font-family: $fonte-bold-SW;
+  font-size: 20px
+}

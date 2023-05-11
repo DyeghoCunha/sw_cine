@@ -1,0 +1,257 @@
+@import '../../styles/variaveis';
+
+:root {
+  --botaoLargura: 250px;
+  --botaoAltura: var(--botaoLargura);
+  --containerAltura: var(--botaoLargura);
+  --corBackGroundBotao: $corFundo;
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+
+.container {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 20px;
+
+  //max-height: $containerAltura;
+  //max-width: $containerAltura;
+
+  background: $colorBgSW;
+  cursor: pointer;
+}
+
+.loader {
+  position: relative;
+  display: flex;
+  //justify-content: center;
+  //align-items: center;
+  background-color: $colorBgSW;
+
+}
+
+.loader span {
+
+  position: relative;
+  width: var(--botaoLargura);
+  height: var(--botaoAltura);
+  background: $colorBgSW;
+  border: 6px solid $colorBgSW;
+  border-radius: 50%;
+  box-shadow: -8px -8px 15px $colorCard,
+    8px 8px 25px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+
+}
+
+
+
+.loader span::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  box-shadow: inset 10px 10px 20px rgba(0, 0, 0, 0.5),
+    inset -5px -5px 15px $colorCard;
+}
+
+.loader span::after {
+  content: '';
+  position: absolute;
+  inset: 40px;
+  background: $colorBgSW;
+  border: 3px solid $colorBgSW;
+  border-radius: 50%;
+  box-shadow: -8px -8px 15px $colorCard,
+    8px 8px 25px rgba(0, 0, 0, 0.15),
+    inset 3px 3px 10px rgba(0, 0, 0, 0.15),
+    inset -1px -1px 15px $colorCard;
+}
+
+
+.loader span i {
+  position: absolute;
+
+  width: var(--botaoLargura) - 12px;
+  height: var(--botaoAltura) - 12px;
+
+  inset: 0;
+
+  border-radius: 50%;
+  filter: blur(5px);
+  background: linear-gradient( $cyberblue , $cybergreen, $cyberyellow);
+  background-position: center;
+
+  
+
+
+  animation: animate 3s linear infinite;
+  
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.rocket {
+  position: absolute;
+  inset: 50px;
+  z-index: 10;
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+  /*  height: 250px;
+  border: #000000 solid;
+  border-radius: 50%;
+
+ */
+}
+
+.rocket .faRocket {
+  position: absolute;
+  color: $rose-cyberpunk;
+  width: 60px;
+  z-index: 1;
+  
+  animation: animateRocket 0.3s linear infinite;
+ 
+  
+
+}
+.faRocket2{
+  position: absolute;
+  z-index: 2;
+  width: 58.5px;
+  animation: animateRocket 0.3s linear infinite;
+}
+
+.faFire{
+  position: absolute;
+  color: #ff3c00;
+  font-size: 1.5em;
+  z-index: 2;
+ 
+  animation: animateFogo 1s linear infinite;
+  filter: blur(1px);
+  
+  
+
+}
+
+.faFireCurved{
+  position: absolute;
+  color: #fffb00;
+  font-size: 1.5em;
+  z-index: 3;
+
+  animation: animateFogo 0.4s linear infinite;
+  filter: blur(1px);
+
+}
+.faFireSimple{
+  position: absolute;
+  color: #ff4f0a;
+  font-size: 1.5em;
+  z-index: 1;
+
+  animation: animateFogo 0.6s linear infinite;
+  filter: blur(5px);
+
+}
+@keyframes animateFogo {
+
+  0%,
+  100% {
+    transform: translate(0px, 51px) rotate(180deg) scale(1.1);
+    filter: blur(1px);
+  }
+
+  50% {
+    transform: translate(1px, 55px) rotate(180deg);
+    filter: blur(2px);
+  }
+  75%{
+    transform: translate(-1px, 55px) rotate(180deg);
+    filter: blur(3px);
+  }
+
+}
+
+
+@keyframes animateRocket {
+
+  0%,
+  100% {
+    transform: translate(0px, 0px) rotate(180deg) ;
+  }
+
+  50% {
+    transform: translate(0px, 3px) rotate(180deg);
+  }
+
+}
+
+.faCloud {
+
+  position: absolute;
+  
+  z-index: 3;
+ 
+  top: calc(35px * var(--i));
+  left: calc(45px * var(--i));
+  font-size: 2em;
+  color: #fff;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #000000;
+  animation: animateClouds 2s linear infinite;
+  animation-delay: calc(-0.5s * var(--i));
+}
+
+
+
+.faCloud2 {
+
+  position: absolute;
+  
+  z-index: 3;
+  width: 40px;
+  top: calc(35px * var(--i));
+  left: calc(45px * var(--i));
+  font-size: 2.2em;
+  color: #000000b2;
+  
+
+  animation: animateClouds 2s linear infinite;
+
+  animation-delay: calc(-0.5s * var(--i));
+}
+
+
+@keyframes animateClouds {
+  0% {
+    transform: translateY(calc(-35* 5px));
+  }
+
+  100% {
+    transform: translateY(calc(35* 5px));
+  }
+}
