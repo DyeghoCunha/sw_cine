@@ -27,6 +27,8 @@
 .cardFoto {
   width: 203.5px;
   height: 300px;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 
@@ -50,6 +52,15 @@
 
 
 }
+
+.link{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
 
 .titulo {
   color: $colorDarkSW;
@@ -78,53 +89,3 @@
 
 }
 
-/* .nave{
-  position: absolute;
-  width: 50px;
-
-
- 
-}
-.nave:hover{
-  animation: voar 5s linear infinite;
-}
-
-
-@keyframes voar {
-
-  0% {
-    transform: translateX(10px) translateY(-300px) rotate(-35deg);
-    z-index: -1;
-  }
-
-  50% {
-    transform: translateX(150px) translateY(0px) rotate(-35deg);
-    z-index: -1;
-  }
-  51%{
-    transform: translateX(150px) translateY(0px) rotate(143deg);
-    z-index: 1;
-  }
-
-  75% {
-    transform: translateX(150px) translateY(0px) rotate(143deg);
-    z-index: 1;
-  }
-90%{
-  transform: translateX(-60px) translateY(-300px)rotate(143deg);
-  z-index: 1;
-}
-95%{
-  transform: translateX(-60px) translateY(-300px)rotate(-93deg);
-  z-index: -1;
-}
-
-  100% {
-    transform: translateX(0) translateY(-300px)rotate(-93deg);
-    z-index: -1;
-  }
-}
-
-.nave {
-  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
-} */

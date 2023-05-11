@@ -5,6 +5,7 @@ import { useFavoritoContext } from '../context/Favoritos';
 
 
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 export default function Card({id,titulo,subtitulo,capa}) {
 const {favorito, adicionarFavorito} = useFavoritoContext();
@@ -25,16 +26,15 @@ const icone = ehFavorito ? iconeFavoritar : iconeDesfavoritar
           src={icone} 
           className={styles.favorito}
           onClick={()=>{
-            adicionarFavorito({id,titulo,capa})
+            adicionarFavorito({id,titulo,capa,subtitulo})
           }}
            />
 
         </div>
-
+        <Link className={styles.link} to={`/${id}`}>
         <img className={styles.cardFoto} src={capa} alt="" />
-
         <h3 className={styles.subTitulo}>{subtitulo}</h3>
-        
+        </Link>
 
       </div>
       
