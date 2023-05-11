@@ -14,12 +14,12 @@ export default function Inicio() {
 
   return (
     <>
-    <Cabecalho/>
+    
     <Banner imagem="home"/>
     <Titulo>
       <h1>Um Lugar para Guardar seus vídeos e filmes!</h1>
     </Titulo>
-
+    
 {/* Mapear o arquivo JSON  */}
     <section className={styles.container}>
       {videos.map((video)=>{
@@ -28,7 +28,7 @@ export default function Inicio() {
     </section>
 {/* FIM DO MAPA */}
 
-    <Rodape/>
+    
     </>
   )
 }
