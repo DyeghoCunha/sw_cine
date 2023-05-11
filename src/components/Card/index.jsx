@@ -1,5 +1,6 @@
 import styles from './Card.module.scss';
 import iconeFavoritar from './favoritar.png'
+import xwing from '../../assets/imagem/xwing.png'
 
 
 import React from 'react'
@@ -22,15 +23,10 @@ export default function Card({id,titulo,subtitulo,capa}) {
         <img className={styles.cardFoto} src={capa} alt="" />
 
         <h3 className={styles.subTitulo}>{subtitulo}</h3>
-
-
-
-
-
-
+        
 
       </div>
-
+      {/* <img src={xwing} className={styles.nave}/> */}
     </div>
   )
 }
