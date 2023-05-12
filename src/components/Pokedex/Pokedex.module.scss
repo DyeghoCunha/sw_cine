@@ -1,13 +1,15 @@
 @import '../../styles/variaveis';
 
 .container{
-  position: fixed;
-  width: 96px;
+  position: absolute;
+  
+  width: 96px*3;
   height: auto;
   border: red solid 2px;
   left: 0px;
-  top: 550px;
+  top: 60%;
   box-sizing: border-box;
+  z-index: 1000000;
 }
 
 .iconesContainer{
@@ -19,4 +21,5 @@
   border: 2px  solid ;
   padding: 1px;
   gap: 3px;
+  
 }

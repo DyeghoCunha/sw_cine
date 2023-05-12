@@ -20,20 +20,20 @@ export default function AppRoutes() {
 
     <BrowserRouter>
       <Cabecalho />
+     
       <Container>
-
-      <Pokedex/>
-        <FavoritosProvider>
-
+        <FavoritosProvider> 
+          <Pokedex/>
           <Routes>
+           
             <Route path='/' element={<Inicio />}></Route>
             <Route path='/favoritos' element={<Favoritos />}></Route>
             <Route path='/:id' element={<Player/>}></Route>
             <Route path='*' element={<NaoEncontrada/>}></Route>
           </Routes>
-          
         </FavoritosProvider>
       </Container>
+    
       <Rodape />
     </BrowserRouter>
   )

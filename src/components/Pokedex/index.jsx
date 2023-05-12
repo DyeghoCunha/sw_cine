@@ -9,23 +9,20 @@ import Placar from './Placar'
 
 export default function Pokedex() {
 
-  
   return (
     <section className={styles.container}>
-      <Placar score={30} icone="starwars1" />
-    <div className={styles.iconesContainer}>
-      <PokedexIcone icone="starwars1"/>
-      <PokedexIcone icone={yoda}/>
-      <PokedexIcone icone={boba}/>
-      <PokedexIcone icone={boba}/>
-    </div> 
+      <Placar score={30} icone={boba} />
+
+      <div className={styles.iconesContainer}>
+        {/* Formula para pegar informacoes de mapa de um JSON */}
+        {lista.map((lista) => { return <PokedexIcone {...lista} key={lista.id} /> })}
+        {/* ------------------------------------------------- */}
+      </div>
+      
     </section>
   )
 }
 
 
-{/* <section className={styles.container}>
-{videos.map((video)=>{
- return  <Card {...video} key = {video.id}/>
-})}
-</section> */}
+
+
