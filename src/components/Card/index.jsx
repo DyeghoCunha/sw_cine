@@ -8,10 +8,13 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 
 export default function Card({id,titulo,subtitulo,capa}) {
-const {favorito, adicionarFavorito} = useFavoritoContext();
 
+/* Favorito */
+const {favorito, adicionarFavorito} = useFavoritoContext();
 const ehFavorito = favorito.some((fav)=> fav.id===id);
 const icone = ehFavorito ? iconeFavoritar : iconeDesfavoritar
+/* Favorito */
+
 
   return (
     

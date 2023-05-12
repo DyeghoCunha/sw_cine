@@ -21,6 +21,7 @@ export default function Inicio() {
     </Titulo>
     
 {/* Mapear o arquivo JSON  */}
+
     <section className={styles.container}>
       {videos.map((video)=>{
        return  <Card {...video} key = {video.id}/>

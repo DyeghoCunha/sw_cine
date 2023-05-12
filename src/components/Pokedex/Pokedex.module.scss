@@ -1,0 +1,22 @@
+@import '../../styles/variaveis';
+
+.container{
+  position: fixed;
+  width: 96px;
+  height: auto;
+  border: red solid 2px;
+  left: 0px;
+  top: 550px;
+  box-sizing: border-box;
+}
+
+.iconesContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  border: 2px  solid ;
+  padding: 1px;
+  gap: 3px;
+}

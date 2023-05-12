@@ -12,6 +12,7 @@ import Colecionavel from './pages/Colecionavel'
 import FavoritosProvider from './components/context/Favoritos'
 import Player from './pages/Player'
 import NaoEncontrada from './pages/NaoEncontrada'
+import Pokedex from './components/Pokedex'
 
 
 export default function AppRoutes() {
@@ -20,6 +21,8 @@ export default function AppRoutes() {
     <BrowserRouter>
       <Cabecalho />
       <Container>
+
+      <Pokedex/>
         <FavoritosProvider>
 
           <Routes>

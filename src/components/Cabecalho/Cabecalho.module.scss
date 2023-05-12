@@ -2,7 +2,7 @@
 
 
 .cabecalho {
-  background-color: $colorDarkSW_op;
+  background-color: $colorCard;
   
   display: flex;
   justify-content: space-between;
@@ -25,7 +25,7 @@
 }
 
 .icone:hover{
-  filter: drop-shadow(0px 0px 5px #fdfdfd);
+  filter: drop-shadow(0px 0px 5px #e29f0e);
 }
 
 .cabecalhoLink {
@@ -41,5 +41,5 @@
 }
 
 .linkTitulo:hover {
-    text-shadow: 0px 0px 15px  rgb(255, 255, 255);
+    text-shadow: 0px 0px 3px  #e29f0e;
 }
