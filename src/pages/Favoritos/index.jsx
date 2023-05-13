@@ -10,6 +10,7 @@ import capa from '../../assets/imagem/sw-cover/6.png'
 import React from 'react'
 import Card from '../../components/Card'
 import { useFavoritoContext } from '../../components/context/Favoritos'
+import IconeGenerico from '../../components/IconeGenerico'
 
 export default function Favoritos() {
   const { favorito } = useFavoritoContext();
@@ -21,7 +22,7 @@ export default function Favoritos() {
       <Titulo>
         <h1>Seus Filmes Favoritos! </h1>
       </Titulo>
-
+        <IconeGenerico/>
       <section className={styles.container}>
         {favorito.map((fav)=>{
           return <Card {...fav} key={fav.id} />

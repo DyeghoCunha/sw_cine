@@ -1,25 +1,41 @@
 @import '../../styles/variaveis';
 
-.container{
+$colorTextSW: rgba(87, 57, 33, 1);
+$colorBgSW: rgba(255, 230, 189, 1);
+$colorBgSW2: rgba(253, 211, 101, 1);
+$colorDarkSW: rgba(30, 40, 59, 1);
+$colorDarkSW_op: rgba(30, 40, 59, 1);
+$colorCard: rgba(255, 242, 215, 1);
+
+
+
+$materialCardShaddow: 0 2px 4px rgba(0, 0, 0, 0.25); // Defina a sombra do card
+
+
+.container {
   position: absolute;
-  
-  width: 96px*3;
+  background-color: $colorTextSW;
+  width: 106px;
   height: auto;
-  border: red solid 2px;
+  border-radius: 8px;
+ 
   left: 0px;
   top: 60%;
   box-sizing: border-box;
   z-index: 1000000;
+  box-shadow: $materialCardShaddow;
 }
 
-.iconesContainer{
+.iconesContainer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  width: inherit;
   align-items: center;
   margin-top: 10px;
-  border: 2px  solid ;
-  padding: 1px;
-  gap: 3px;
-  
+  border-top: 2px solid $colorCard;
+  padding: 15px 0px;
+  gap: 5px;
+  background-color: $colorBgSW2;
+
 }

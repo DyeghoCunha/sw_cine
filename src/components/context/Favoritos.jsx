@@ -17,6 +17,7 @@ export default function FavoritosProvider({ children }) {
 
 
 export function useFavoritoContext() {
+  
   const { favorito, setFavorito } = useContext(FavoritosContext);
 
   function adicionarFavorito(novoFavorito) {

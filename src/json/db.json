@@ -3,6 +3,7 @@
         "id": 1,
         "titulo": "Episódio I",
         "subtitulo": "A Ameaça Fantasma",
+        "historia":"A história começa com a Federação de Comércio bloqueando o planeta Naboo em um esforço para forçar a Rainha Amidala a concordar com um acordo comercial desfavorável. A fim de ajudar a Rainha, dois Jedi, Qui-Gon Jinn e seu aprendiz, Obi-Wan Kenobi, são enviados para negociar com a Federação. Enquanto tentam escapar da invasão, a nave de Qui-Gon e Obi-Wan é danificada, fazendo com que eles tenham que pousar em Tatooine para reparos. Lá, eles conhecem Anakin Skywalker, um jovem escravo que parece ter um grande potencial como Jedi. Enquanto isso, a Federação de Comércio tenta matar a Rainha Amidala, que foge com Qui-Gon, Obi-Wan e Anakin em sua nave. Depois de uma série de perseguições e batalhas, o grupo chega em Coruscant, a capital da República Galáctica. Lá, eles descobrem que o Senado Galáctico é incapaz de ajudá-los a libertar Naboo, pois o Senhor Sith Darth Sidious está manipulando secretamente o Senado e a Federação de Comércio para conseguir seus próprios fins. Para ajudar a Rainha Amidala a libertar Naboo, Qui-Gon e Obi-Wan decidem participar de uma perigosa corrida de pods em Tatooine para ganhar dinheiro suficiente para comprar uma nave. Durante a corrida, Anakin se junta a eles e acaba vencendo a corrida. Com o dinheiro, o grupo compra uma nave e se dirige para Naboo para ajudar a libertar o planeta. Lá, eles enfrentam o exército da Federação de Comércio e lutam contra Darth Maul, um aprendiz Sith enviado por Darth Sidious para matar os Jedi. Em uma batalha intensa, Qui-Gon é morto por Darth Maul, e Obi-Wan acaba matando o Sith em vingança. Com a ajuda dos Gungans, uma espécie alienígena que vive nas águas de Naboo, a Rainha Amidala consegue retomar o controle do planeta. No final do filme, Anakin Skywalker é descoberto pelos Jedi como o Escolhido da Força, o que significa que ele tem um grande destino pela frente. Obi-Wan, então, concorda em treiná-lo como Jedi, e o filme termina com Anakin se despedindo de sua mãe para começar sua jornada como aprendiz Jedi.",
         "capa": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/assets/imagem/sw-cards/1.png",
         "link": "https://www.youtube.com/embed/bD7bpG-zDJQ"
     },
@@ -10,6 +11,7 @@
         "id": 2,
         "titulo": "Episódio II",
         "subtitulo": "Ataque dos Clones",
+        "historia":"",
         "capa": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/assets/imagem/sw-cards/2.png",
         "link": "https://www.youtube.com/embed/gYbW1F_c9eM"
     },
@@ -17,6 +19,7 @@
         "id": 3,
         "titulo": "Episódio III",
         "subtitulo": "A Vingança dos Sith",
+        "historia":"",
         "capa": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/assets/imagem/sw-cards/3.png",
         "link": "https://www.youtube.com/embed/5UnjrG_N8hU"
     },
@@ -24,6 +27,7 @@
         "id": 4,
         "titulo": "Episódio IV",
         "subtitulo": "Uma Nova Esperança",
+        "historia":"",
         "capa": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/assets/imagem/sw-cards/6.png",
         "link": "https://www.youtube.com/embed/vZ734NWnAHA"
     },
@@ -31,6 +35,7 @@
         "id": 5,
         "titulo": "Episódio V",
         "subtitulo": "O Império Contra-Ataca",
+        "historia":"",
         "capa": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/assets/imagem/sw-cards/7.png",
         "link": "https://www.youtube.com/embed/JNwNXF9Y6kY"
     },
@@ -38,6 +43,7 @@
         "id": 6,
         "titulo": "Episódio VI",
         "subtitulo": "O Retorno de Jedi",
+        "historia":"",
         "capa": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/assets/imagem/sw-cards/8.png",
         "link": "https://www.youtube.com/embed/7L8p7_SLzvU"
     },
@@ -45,6 +51,7 @@
         "id": 7,
         "titulo": "Episódio VII",
         "subtitulo": "O Despertar da Força",
+        "historia":"",
         "capa": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/assets/imagem/sw-cards/9.png",
         "link": "https://www.youtube.com/embed/sGbxmsDFVnE"
     },
@@ -52,6 +59,7 @@
         "id": 8,
         "titulo": "Episódio VIII",
         "subtitulo": "Os Últimos Jedi",
+        "historia":"",
         "capa": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/assets/imagem/sw-cards/10.png",
         "link": "https://www.youtube.com/embed/Q0CbN8sfihY"
     },
@@ -59,6 +67,7 @@
         "id": 9,
         "titulo": "Star Wars",
         "subtitulo": "The Clone Wars",
+        "historia":"",
         "capa": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/assets/imagem/sw-cards/14.png",
         "link": "https://www.youtube.com/embed/6pRqU87HBuI"
     },
@@ -66,6 +75,7 @@
         "id": 10,
         "titulo": "Solo",
         "subtitulo": "Uma História Star Wars",
+        "historia":"",
         "capa": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/assets/imagem/sw-cards/4.png",
         "link": "https://www.youtube.com/embed/jPEYpryMp2s"
     },
@@ -73,6 +83,7 @@
         "id": 11,
         "titulo": "Rogue One",
         "subtitulo": "Uma História Star Wars",
+        "historia":"",
         "capa": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/assets/imagem/sw-cards/5.png",
         "link": "https://www.youtube.com/embed/frdj1zb9sMY"
     },
@@ -80,6 +91,7 @@
         "id": 12,
         "titulo": "Ewoks",
         "subtitulo": "A Batalha de Endor",
+        "historia":"",
         "capa": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/assets/imagem/sw-cards/11.png",
         "link": "https://www.youtube.com/embed/lfMWlAF5RW0"
     },
@@ -87,6 +99,7 @@
         "id": 13,
         "titulo": "Ewoks",
         "subtitulo": "A Caravana da Coragem",
+        "historia":"",
         "capa": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/assets/imagem/sw-cards/12.png",
         "link": "https://www.youtube.com/embed/HenB3gt6SAY"
     },
@@ -94,6 +107,7 @@
         "id": 14,
         "titulo": "S.O.S.",
         "subtitulo": "Tem um Louco Solto no Espaço",
+        "historia":"",
         "capa": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/assets/imagem/sw-cards/16.png",
         "link": "https://www.youtube.com/embed/RK0yd4LtLdg"
     }

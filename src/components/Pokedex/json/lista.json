@@ -2,18 +2,18 @@
     {
         "id": 1,
         "icone": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/components/Pokedex/image/startwars1.png",
-        "titulo": "",
-        "foto": "",
-        "descricao": "",
-        "planeta": ""
+        "titulo": "Titulo",
+        "foto": "Foto",
+        "descricao": "Esta eh uma descricao",
+        "planeta": "Tattoine"
     },
     {
         "id": 2,
         "icone": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/components/Pokedex/image/startwars2.png",
-        "titulo": "",
-        "foto": "",
-        "descricao": "",
-        "planeta": ""
+        "titulo": "Titulo 2 ",
+        "foto": "Foto 2 ",
+        "descricao": "Descricao 2",
+        "planeta": "Terra"
     },
     {
         "id": 3,

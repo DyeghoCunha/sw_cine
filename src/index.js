@@ -4,7 +4,7 @@ import './index.scss';
 import './assets/fontes/GandhiSans-Bold.otf'
 import './assets/fontes/GandhiSans-Regular.otf'
 import './styles/estilosGlobais.scss';
-import Inicio from './pages/Inicio';
+
 import AppRoutes from './routes.jsx';
 
 
