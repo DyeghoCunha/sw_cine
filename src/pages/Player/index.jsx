@@ -7,6 +7,7 @@ import React from 'react'
 import NaoEncontrada from '../NaoEncontrada';
 import IconeGenerico from '../../components/IconeGenerico';
 import iconeSw from '../../assets/imagem/icons/icons/1626628_skywalker_jedi_luke_star wars.png'
+import IconeSelvagem from '../../components/IconeSelvagem';
 
 export default function Player() {
 
@@ -25,9 +26,7 @@ if(!video){
         <h1>{`${video.titulo}: ${video.subtitulo} `}</h1>
       </Titulo>
 
-      <div className={styles.iconeSelvagem}>
-        <IconeGenerico left='1010px' top='720px' src={iconeSw}  />
-      </div>
+    <IconeSelvagem/>
       
       <section className={styles.container}>
         <div className={styles.historiaContainer}>

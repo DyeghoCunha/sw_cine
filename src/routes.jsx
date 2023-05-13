@@ -14,6 +14,7 @@ import Player from './pages/Player'
 import NaoEncontrada from './pages/NaoEncontrada'
 import Pokedex from './components/Pokedex'
 import Biografia from './pages/Biografia'
+import IconesProvider from './components/context/Icones'
 
 
 
@@ -23,20 +24,22 @@ export default function AppRoutes() {
 
     <BrowserRouter>
       <Cabecalho />
-     
+
       <Container>
-        <FavoritosProvider> 
-          <Pokedex/>
-          <Routes>
-           <Route path='/' element={<Inicio />}></Route> 
-            <Route path='/favoritos' element={<Favoritos />}></Route>
-            <Route path='/:id' element={<Player/>}></Route>
-            <Route path='*' element={<NaoEncontrada/>}></Route>
-            <Route path='/biografia/:id' element={<Biografia/>}></Route>
-          </Routes>
-        </FavoritosProvider>
+        <IconesProvider>
+          <FavoritosProvider>
+            <Pokedex />
+            <Routes>
+              <Route path='/' element={<Inicio />}></Route>
+              <Route path='/favoritos' element={<Favoritos />}></Route>
+              <Route path='/:id' element={<Player />}></Route>
+              <Route path='*' element={<NaoEncontrada />}></Route>
+              <Route path='/biografia/:id' element={<Biografia />}></Route>
+            </Routes>
+          </FavoritosProvider>
+        </IconesProvider>
       </Container>
-    
+
       <Rodape />
     </BrowserRouter>
   )
