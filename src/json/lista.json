@@ -1,6 +1,6 @@
 [
     {
-        "id": 101,
+        "id": 1,
         "icone": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/components/Pokedex/image/startwars1.png",
         "titulo": "Titulo",
         "foto": "Foto",
@@ -8,7 +8,7 @@
         "planeta": "Tattoine"
     },
     {
-        "id": 102,
+        "id": 2,
         "icone": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/components/Pokedex/image/startwars2.png",
         "titulo": "Titulo 2 ",
         "foto": "Foto 2 ",
@@ -16,7 +16,7 @@
         "planeta": "Terra"
     },
     {
-        "id": 103,
+        "id": 3,
         "icone": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/components/Pokedex/image/startwars3.png",
         "titulo": "",
         "foto": "",
@@ -24,7 +24,7 @@
         "planeta": ""
     },
     {
-        "id": 104,
+        "id": 4,
         "icone": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/components/Pokedex/image/startwars4.png",
         "titulo": "",
         "foto": "",
@@ -32,7 +32,7 @@
         "planeta": ""
     },
     {
-        "id": 105,
+        "id": 5,
         "icone": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/components/Pokedex/image/startwars5.png",
         "titulo": "",
         "foto": "",
@@ -40,7 +40,7 @@
         "planeta": ""
     },
     {
-        "id": 106,
+        "id": 6,
         "icone": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/components/Pokedex/image/startwars6.png",
         "titulo": "",
         "foto": "",
@@ -48,7 +48,7 @@
         "planeta": ""
     },
     {
-        "id": 107,
+        "id": 7,
         "icone": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/components/Pokedex/image/startwars7.png",
         "titulo": "",
         "foto": "",
@@ -56,7 +56,7 @@
         "planeta": ""
     },
     {
-        "id": 109,
+        "id": 9,
         "icone": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/components/Pokedex/image/startwars9.png",
         "titulo": "",
         "foto": "",
@@ -64,7 +64,7 @@
         "planeta": ""
     },
     {
-        "id": 1010,
+        "id": 10,
         "icone": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/components/Pokedex/image/startwars10.png",
         "titulo": "",
         "foto": "",
@@ -72,7 +72,7 @@
         "planeta": ""
     },
     {
-        "id": 1011,
+        "id": 11,
         "icone": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/components/Pokedex/image/startwars11.png",
         "titulo": "",
         "foto": "",
@@ -80,7 +80,7 @@
         "planeta": ""
     },
     {
-        "id": 1012,
+        "id": 12,
         "icone": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/components/Pokedex/image/startwars12.png",
         "titulo": "",
         "foto": "",
@@ -88,7 +88,7 @@
         "planeta": ""
     },
     {
-        "id": 1013,
+        "id": 13,
         "icone": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/components/Pokedex/image/startwars13.png",
         "titulo": "",
         "foto": "",
@@ -96,7 +96,7 @@
         "planeta": ""
     },
     {
-        "id": 1014,
+        "id": 14,
         "icone": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/components/Pokedex/image/startwars14.png",
         "titulo": "",
         "foto": "",
@@ -104,7 +104,7 @@
         "planeta": ""
     },
     {
-        "id": 1015,
+        "id": 15,
         "icone": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/components/Pokedex/image/startwars15.png",
         "titulo": "",
         "foto": "",
@@ -112,7 +112,7 @@
         "planeta": ""
     },
     {
-        "id": 1016,
+        "id": 16,
         "icone": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/components/Pokedex/image/startwars16.png",
         "titulo": "",
         "foto": "",
@@ -120,7 +120,7 @@
         "planeta": ""
     },
     {
-        "id": 1018,
+        "id": 18,
         "icone": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/components/Pokedex/image/startwars18.png",
         "titulo": "",
         "foto": "",
@@ -128,7 +128,7 @@
         "planeta": ""
     },
     {
-        "id": 1019,
+        "id": 19,
         "icone": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/components/Pokedex/image/startwars19.png",
         "titulo": "",
         "foto": "",
@@ -136,7 +136,7 @@
         "planeta": ""
     },
     {
-        "id": 1020,
+        "id": 20,
         "icone": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/components/Pokedex/image/startwars20.png",
         "titulo": "",
         "foto": "",
@@ -144,7 +144,7 @@
         "planeta": ""
     },
     {
-        "id": 1021,
+        "id": 21,
         "icone": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/components/Pokedex/image/startwars21.png",
         "titulo": "",
         "foto": "",
@@ -152,7 +152,7 @@
         "planeta": ""
     },
     {
-        "id": 1022,
+        "id": 22,
         "icone": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/components/Pokedex/image/startwars22.png",
         "titulo": "",
         "foto": "",
@@ -160,7 +160,7 @@
         "planeta": ""
     },
     {
-        "id": 1023,
+        "id": 23,
         "icone": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/components/Pokedex/image/startwars23.png",
         "titulo": "",
         "foto": "",
@@ -168,7 +168,7 @@
         "planeta": ""
     },
     {
-        "id": 1024,
+        "id": 24,
         "icone": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/components/Pokedex/image/startwars24.png",
         "titulo": "",
         "foto": "",
@@ -176,7 +176,7 @@
         "planeta": ""
     },
     {
-        "id": 1025,
+        "id": 25,
         "icone": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/components/Pokedex/image/startwars25.png",
         "titulo": "",
         "foto": "",
@@ -184,7 +184,7 @@
         "planeta": ""
     },
     {
-        "id": 1026,
+        "id": 26,
         "icone": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/components/Pokedex/image/startwars26.png",
         "titulo": "",
         "foto": "",
@@ -192,7 +192,7 @@
         "planeta": ""
     },
     {
-        "id": 1027,
+        "id": 27,
         "icone": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/components/Pokedex/image/startwars27.png",
         "titulo": "",
         "foto": "",
@@ -200,7 +200,7 @@
         "planeta": ""
     },
     {
-        "id": 1028,
+        "id": 28,
         "icone": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/components/Pokedex/image/startwars28.png",
         "titulo": "",
         "foto": "",
@@ -208,7 +208,7 @@
         "planeta": ""
     },
     {
-        "id": 1029,
+        "id": 29,
         "icone": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/components/Pokedex/image/startwars29.png",
         "titulo": "",
         "foto": "",
@@ -216,7 +216,7 @@
         "planeta": ""
     },
     {
-        "id": 1030,
+        "id": 30,
         "icone": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/components/Pokedex/image/startwars30.png",
         "titulo": "",
         "foto": "",

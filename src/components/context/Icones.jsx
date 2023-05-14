@@ -17,21 +17,21 @@ export default function IconesProvider({ children }) {
 
 
 export function useIconesContext() {
-  
+
   const { iconeSw, setIconeSw } = useContext(IconesContext);
 
   function adicionarIcone(novoIcone) {
     const iconeRepetido = iconeSw.some(item => item.id === novoIcone.id)
 
     let novaLista = [...iconeSw];
-console.log(`Esta eh a Novalista: ${novaLista.length}`)
+    
     if (!iconeRepetido) {
       novaLista.push(novoIcone);
       return setIconeSw(novaLista);
     }
 
-    novaLista.splice(novaLista.indexOf(novoIcone), 1)
-    return setIconeSw(novaLista)
+    //novaLista.splice(novaLista.indexOf(novoIcone), 1)
+    //return setIconeSw(novaLista)
   }
   return {
     iconeSw,

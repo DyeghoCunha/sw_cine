@@ -12,23 +12,18 @@ export default function IconeGenerico({id,icone,titulo,foto,descricao,planeta,le
     };
 
     const { iconeSw, adicionarIcone } = useIconesContext();
-    // const ehFavorito = iconeSw.some((fav) => fav.id === id);
+  
  
-  
-  
     return (
       <section className={styles.container}>
       <div
-       // className={`icone ${isVisible ? "" : "escondido"}`}
         style={{ 
           transform: `translateX(${left}) translateY(${top})` 
         }}
-        //onClick={handleClick}
         onClick={()=>{
           adicionarIcone({id,icone,titulo,foto,descricao,planeta})}}
       >
         {isVisible && <img className={styles.iconeMeu} src={icone} alt={titulo} id={id} />}
-  
       </div>
       </section>
     );

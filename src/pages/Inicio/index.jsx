@@ -1,6 +1,7 @@
 import Banner from '../../components/Banner';
 
 import Card from '../../components/Card';
+import IconeSelvagem from '../../components/IconeSelvagem';
 
 import Titulo from '../../components/Titulo';
 import videos from '../../json/db.json'

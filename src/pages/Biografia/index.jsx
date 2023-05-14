@@ -2,7 +2,7 @@ import { useParams } from 'react-router-dom';
 import Banner from '../../components/Banner';
 import Titulo from '../../components/Titulo';
 import styles from './Biografia.module.scss';
-import listas from '../../components/Pokedex/json/lista.json'
+import listas from '../../json/lista.json'
 import React from 'react'
 import NaoEncontrada from '../NaoEncontrada';
 

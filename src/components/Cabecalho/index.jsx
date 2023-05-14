@@ -18,14 +18,14 @@ export default function Cabecalho() {
       <nav className={styles.containerLink}>
         <CabecalhoLink  url='/'>
         <div className={styles.cabecalhoLink}>
-          <img className={styles.icone} src={home} alt="" />
+         {/*  <img className={styles.icone} src={home} alt="" /> */}
           <h1 className={styles.linkTitulo}>Home</h1>
          
         </div>
         </CabecalhoLink>
         <CabecalhoLink url='/favoritos'>
         <div className={styles.cabecalhoLink}>
-          <img className={styles.icone} src={favoritos} alt="" />
+          {/* <img className={styles.icone} src={favoritos} alt="" /> */}
           <h1 className={styles.linkTitulo}>Favoritos</h1>
        
         </div>
