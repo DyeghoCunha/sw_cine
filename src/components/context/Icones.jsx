@@ -24,7 +24,7 @@ export function useIconesContext() {
     const iconeRepetido = iconeSw.some(item => item.id === novoIcone.id)
 
     let novaLista = [...iconeSw];
-
+console.log(`Esta eh a Novalista: ${novaLista.length}`)
     if (!iconeRepetido) {
       novaLista.push(novoIcone);
       return setIconeSw(novaLista);

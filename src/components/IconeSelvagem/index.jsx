@@ -13,8 +13,8 @@ import { useIconesContext } from '../context/Icones';
 export default function IconeSelvagem({ id, icone, titulo, foto, descricao, planeta }) {
 
   const { iconeSw, adicionarIcone } = useIconesContext();
-  const ehFavorito = iconeSw.some((fav) => fav.id === id);
-  const parametro = ehFavorito ? iconeFavoritar : iconeDesfavoritar;
+  //const ehFavorito = iconeSw.some((fav) => fav.id === id);
+  //const parametro = ehFavorito ? iconeFavoritar : iconeDesfavoritar;
 
   /* Posicao Aleatoria e Icone Aleatorio */
   const randomIndex = Math.floor(Math.random() * lista.length);
@@ -28,12 +28,13 @@ export default function IconeSelvagem({ id, icone, titulo, foto, descricao, plan
 
     <div className={styles.iconeSelvagem}>
       <IconeGenerico
+        key={randomIndex}
         left={left}
         top={top}
         icone={`https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/components/Pokedex/image/startwars${randomIndex}.png`}
-        id={id}
-      /*      onClick={()=>{
-             adicionarIcone({id,icone,titulo,foto,descricao,planeta})}} */
+        id={randomIndex}
+     
+
       />
     </div>
 

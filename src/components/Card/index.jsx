@@ -29,8 +29,7 @@ const icone = ehFavorito ? iconeFavoritar : iconeDesfavoritar
           src={icone} 
           className={styles.favorito}
           onClick={()=>{
-            adicionarFavorito({id,titulo,capa,subtitulo})
-          }}
+            adicionarFavorito({id,titulo,capa,subtitulo})}}
            />
 
         </div>

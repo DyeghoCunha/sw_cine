@@ -28,7 +28,7 @@ export default function AppRoutes() {
       <Container>
         <IconesProvider>
           <FavoritosProvider>
-            <Pokedex />
+             <Pokedex /> 
             <Routes>
               <Route path='/' element={<Inicio />}></Route>
               <Route path='/favoritos' element={<Favoritos />}></Route>

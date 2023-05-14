@@ -35,3 +35,6 @@ npm install -g sass
 
 npm install react-router-dom
 
+## Star Wars API 
+
+https://swapi.dev/documentation#people
