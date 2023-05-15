@@ -6,11 +6,11 @@ IconesContext.displayName = "IconesContext"
 
 
 export default function IconesProvider({ children }) {
-  const [iconeSw, setIconeSw] = useState([])
-  
+  const [iconeSw, setIconeSw] = useState([]);
+  const [contador, setContador] = useState(1);
   return (
     <IconesContext.Provider
-      value={{ iconeSw, setIconeSw }}>
+      value={{ iconeSw, setIconeSw, contador, setContador }}>
       {children}
     </IconesContext.Provider>
   )
@@ -20,14 +20,17 @@ export default function IconesProvider({ children }) {
 export function useIconesContext() {
 
   const { iconeSw, setIconeSw } = useContext(IconesContext);
+  const {contador , setContador} = useContext(IconesContext);
 
   function adicionarIcone(novoIcone) {
     const iconeRepetido = iconeSw.some(item => item.id === novoIcone.id)
 
     let novaLista = [...iconeSw];
-    
+    let novoNumero = contador + 1;
+     console.log (`Este eh o Contador: ${contador}`)
     if (!iconeRepetido) {
       novaLista.push(novoIcone);
+      setContador(novoNumero)
       return setIconeSw(novaLista);
     }
 
@@ -36,7 +39,8 @@ export function useIconesContext() {
   }
   return {
     iconeSw,
-    adicionarIcone
+    adicionarIcone,
+    contador
   }
 }
 

@@ -22,7 +22,7 @@ export default function Rodape() {
         <div className={styles.linkContainer}>
 
           <LinkRodape icone={icone1} link={'./'}>Imagens dos Cards</LinkRodape>
-          <LinkRodape icone={icone2} link={'./'}>Imagem dos Icones</LinkRodape>
+          <LinkRodape icone={icone2} link={'https://symbolicons.com/free#star-wars'}>Imagem dos Icones</LinkRodape>
           <LinkRodape icone={icone3} link={'./'}>Galeria Start Wars</LinkRodape>
           
 

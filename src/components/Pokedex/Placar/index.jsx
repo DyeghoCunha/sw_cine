@@ -1,11 +1,15 @@
 
+import { IconesContext } from '../../context/Icones';
 import PokedexIcone from '../PokedexIcone';
-import iconeSw from '../image/startwars2.png'
+import iconeSw from '../image/mando.png'
 
 import styles from './Placar.module.scss'
-import React from 'react'
+import React, { useContext } from 'react'
 
-export default function Placar({ icone, score }) {
+export default function Placar({ icone }) {
+  const { contador } = useContext(IconesContext);
+
+  let score = contador -1;
 
   return (
 
