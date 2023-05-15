@@ -56,6 +56,14 @@
         "planeta": ""
     },
     {
+        "id": 8,
+        "icone": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/components/Pokedex/image/startwars8.png",
+        "titulo": "",
+        "foto": "",
+        "descricao": "",
+        "planeta": ""
+    },
+    {
         "id": 9,
         "icone": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/components/Pokedex/image/startwars9.png",
         "titulo": "",
@@ -114,6 +122,14 @@
     {
         "id": 16,
         "icone": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/components/Pokedex/image/startwars16.png",
+        "titulo": "",
+        "foto": "",
+        "descricao": "",
+        "planeta": ""
+    },
+    {
+        "id": 17,
+        "icone": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/components/Pokedex/image/startwars17.png",
         "titulo": "",
         "foto": "",
         "descricao": "",
@@ -216,8 +232,77 @@
         "planeta": ""
     },
     {
-        "id": 30,
+        "id": 32,
         "icone": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/components/Pokedex/image/startwars30.png",
+        "titulo": "",
+        "foto": "",
+        "descricao": "",
+        "planeta": ""
+    }
+    ,
+    {
+        "id": 31,
+        "icone": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/components/Pokedex/image/startwars31.png",
+        "titulo": "",
+        "foto": "",
+        "descricao": "",
+        "planeta": ""
+    }
+    ,
+    {
+        "id": 32,
+        "icone": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/components/Pokedex/image/startwars32.png",
+        "titulo": "",
+        "foto": "",
+        "descricao": "",
+        "planeta": ""
+    },
+    {
+        "id": 33,
+        "icone": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/components/Pokedex/image/startwars33.png",
+        "titulo": "",
+        "foto": "",
+        "descricao": "",
+        "planeta": ""
+    },
+    {
+        "id": 34,
+        "icone": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/components/Pokedex/image/startwars34.png",
+        "titulo": "",
+        "foto": "",
+        "descricao": "",
+        "planeta": ""
+    },
+    {
+        "id": 35,
+        "icone": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/components/Pokedex/image/startwars35.png",
+        "titulo": "",
+        "foto": "",
+        "descricao": "",
+        "planeta": ""
+    }
+    ,
+    {
+        "id": 36,
+        "icone": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/components/Pokedex/image/startwars36.png",
+        "titulo": "",
+        "foto": "",
+        "descricao": "",
+        "planeta": ""
+    }
+    ,
+    {
+        "id": 37,
+        "icone": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/components/Pokedex/image/startwars37.png",
+        "titulo": "",
+        "foto": "",
+        "descricao": "",
+        "planeta": ""
+    }
+    ,
+    {
+        "id": 38,
+        "icone": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/components/Pokedex/image/startwars38.png",
         "titulo": "",
         "foto": "",
         "descricao": "",
