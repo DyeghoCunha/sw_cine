@@ -24,8 +24,16 @@ body{
 .linkContainer{
   display: flex;
   flex-direction: column;
+  gap: 10px;
 }
+.links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
+  gap: 130px;
+  margin: 0px 40px;
+}
 .link{
   display: flex;
   width: auto;
@@ -41,4 +49,9 @@ body{
 .icone{
   width: 30px;
   height: 30px;
+}
+.rodape h3{
+  position: relative;
+bottom: -100px;
+left: -30px;
 }
