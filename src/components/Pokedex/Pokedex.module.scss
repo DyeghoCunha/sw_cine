@@ -15,8 +15,8 @@ $materialCardShaddow: 0 2px 4px rgba(0, 0, 0, 0.25); // Defina a sombra do card
 .container {
   position: absolute;
   //background-color: $colorTextSW;
-  max-width: 212px;
-  min-width: 106px;
+  //max-width: 212px;
+  width: 106px;
   height: auto;
   border-radius: 8px;
   background-color: rgba(255, 255, 255, 0.25);
