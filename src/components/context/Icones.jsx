@@ -7,6 +7,7 @@ IconesContext.displayName = "IconesContext"
 
 export default function IconesProvider({ children }) {
   const [iconeSw, setIconeSw] = useState([])
+  
   return (
     <IconesContext.Provider
       value={{ iconeSw, setIconeSw }}>

@@ -11,7 +11,7 @@ export default function IconeGenerico({id,icone,titulo,foto,descricao,planeta,le
       setIsVisible(true);
     };
 
-    const { iconeSw, adicionarIcone } = useIconesContext();
+    const { adicionarIcone } = useIconesContext();
   
  
     return (

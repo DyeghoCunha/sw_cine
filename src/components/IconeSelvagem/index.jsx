@@ -5,12 +5,10 @@ import styles from './IconeSelvagem.module.scss'
 import IconeGenerico from '../IconeGenerico'
 import lista from '../../json/lista.json'
 
-import { useIconesContext } from '../context/Icones';
 
 
 export default function IconeSelvagem({ id, icone, titulo, foto, descricao, planeta }) {
 
-  const { iconeSw, adicionarIcone } = useIconesContext();
 
   /* Posicao Aleatoria e Icone Aleatorio */
   const randomIndex = Math.floor(Math.random() * lista.length + 1);
