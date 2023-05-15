@@ -14,16 +14,32 @@ $materialCardShaddow: 0 2px 4px rgba(0, 0, 0, 0.25); // Defina a sombra do card
 
 .container {
   position: absolute;
-  background-color: $colorTextSW;
-  width: 106px;
+  //background-color: $colorTextSW;
+  max-width: 212px;
+  min-width: 106px;
   height: auto;
   border-radius: 8px;
- 
+  background-color: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(3px);
   left: 0px;
   top: 60%;
   box-sizing: border-box;
   z-index: 1000000;
   box-shadow: $materialCardShaddow;
+}
+.containerSmall {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(4px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  width: auto;
+  height: auto;
+  border-radius: 5px;
+  left: 0px;
+  top: 60%;
+  box-sizing: border-box;
+  z-index: 1000000;
+  
 }
 
 .iconesContainer {
@@ -37,5 +53,7 @@ $materialCardShaddow: 0 2px 4px rgba(0, 0, 0, 0.25); // Defina a sombra do card
   padding: 15px 0px;
   gap: 5px;
   background-color: $colorBgSW2;
+  background-color: rgba(253, 211, 101, 0.25);
+  backdrop-filter: blur(3px);
 
 }

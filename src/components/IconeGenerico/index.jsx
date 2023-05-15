@@ -8,7 +8,7 @@ export default function IconeGenerico({id,icone,titulo,foto,descricao,planeta,le
 
     const [isVisible, setIsVisible] = useState(true);
     const handleClick = () => {
-      setIsVisible(true);
+      setIsVisible(false);
     };
 
     const { adicionarIcone } = useIconesContext();
@@ -21,7 +21,9 @@ export default function IconeGenerico({id,icone,titulo,foto,descricao,planeta,le
           transform: `translateX(${left}) translateY(${top})` 
         }}
         onClick={()=>{
-          adicionarIcone({id,icone,titulo,foto,descricao,planeta})}}
+          adicionarIcone({id,icone,titulo,foto,descricao,planeta})
+          handleClick()
+        }}
       >
         {isVisible && <img className={styles.iconeMeu} src={icone} alt={titulo} id={id} />}
       </div>

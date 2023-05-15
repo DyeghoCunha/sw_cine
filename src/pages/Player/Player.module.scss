@@ -5,7 +5,7 @@
 
 .container{
 display: flex;
-border: 2px solid;
+
 width: 100vw;
 height: auto;
 }
@@ -16,11 +16,14 @@ width: 500px;
 height: 300px;
 right: 0;
 z-index: 0;
+margin-top: 2%;
 
 }
 
 .historiaContainer{
   width: 50%;
+  
+  margin: 20px;
 }
 .historia{
   font-size: 18px;

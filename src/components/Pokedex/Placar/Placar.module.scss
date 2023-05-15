@@ -2,7 +2,7 @@
 
 .placarContainer{
   display: flex;
-  width:inherit;
+  width:106px;
   justify-content: center;
   align-items: center;
   padding: 10px 0px 0px 0px;
@@ -11,14 +11,16 @@
  
 }
 
-
+.iconeMando{
+  width: 40px;
+}
 
 
 .score{
   font-family: $fonte-bold-SW;
   font-size: 30px;
   text-align: center;
-  color: $colorCard;
+  color: $colorTextSW;
   padding: 2px;
   margin: 2px;
 }

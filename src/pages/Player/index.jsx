@@ -6,6 +6,7 @@ import videos from '../../json/db.json'
 import React from 'react'
 import NaoEncontrada from '../NaoEncontrada';
 import IconeSelvagem from '../../components/IconeSelvagem';
+import { ReactMarkdown } from 'react-markdown/lib/react-markdown';
 
 
 
@@ -30,9 +31,11 @@ export default function Player() {
 
       <section className={styles.container}>
         <div className={styles.historiaContainer} >
-        
-            <p className={styles.historia}>{video.historia}</p>
-         
+          <div className='post-markdown-container'>
+            <ReactMarkdown>
+              {video.historia}
+            </ReactMarkdown>
+          </div>
         </div>
         <div className={styles.video}>
           <iframe

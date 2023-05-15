@@ -6,33 +6,42 @@ import PokedexIcone from './PokedexIcone'
 import Placar from './Placar'
 
 import { useIconesContext } from '../context/Icones'
+import PlacarSmall from './PlacarSmall'
 
 
 
 export default function Pokedex() {
-
   const { iconeSw } = useIconesContext();
+  const [contador] = useState(0);
+  const [mostrarContainerSmall, setMostrarContainerSmall] = useState(true);
 
-  /* CONTADOR */
-  const [contador, setContador] = useState(0);
-  const handleIconClick = () => {
-    setContador(contador + 1);
-    /* CONTADOR */
+  const handleClick = () => {
+    setMostrarContainerSmall(false);
+  };
+  const handleClick2 = () => {
+    setMostrarContainerSmall(true);
+  };
 
-  }
   return (
+    <>
+    {!mostrarContainerSmall && (
+      <section className={styles.container} onClick={handleClick2}>
+        <Placar score={contador} icone={boba} />
 
-    <section className={styles.container} >
-      <Placar score={contador} icone={boba} />
+        <div className={styles.iconesContainer}>
+          {iconeSw.map((lista) => (
+            <PokedexIcone {...lista} key={lista.id} />
+          ))}
+        </div>
+      </section>)}
 
-      <div className={styles.iconesContainer}>
-        {/* Formula para pegar informacoes de mapa de um JSON */}
-        {iconeSw.map((lista) => { return <PokedexIcone {...lista} key={lista.id} /> })}
-        {/* ------------------------------------------------- */}
-      </div>
-
-    </section>
-  )
+      {mostrarContainerSmall && (
+        <section className={styles.containerSmall} onClick={handleClick}>
+          <PlacarSmall score={contador} icone={boba} />
+        </section>
+      )}
+    </>
+  );
 }
 
 
