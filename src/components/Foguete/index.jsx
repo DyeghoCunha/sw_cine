@@ -1,12 +1,12 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faRocket } from '@fortawesome/free-solid-svg-icons';
+
 import { faCloud } from '@fortawesome/free-solid-svg-icons';
 import { faFire } from '@fortawesome/free-solid-svg-icons';
 import { faFireFlameCurved } from '@fortawesome/free-solid-svg-icons';
 import { faFireFlameSimple } from '@fortawesome/free-solid-svg-icons';
 import styles from './BotaoFoguete.module.scss'
-import { ReactComponent as Foguete } from './rocket.svg';
+
 import { ReactComponent as Nuvem } from './cloud.svg';
 import xwing from '../../assets/imagem/xwing.png'
 

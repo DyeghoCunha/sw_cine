@@ -40,6 +40,8 @@
     ]
   },
   "devDependencies": {
-    "sass": "^1.62.1"
+    "node-sass": "^7.0.3",
+    "sass": "^1.62.1",
+    "webpack": "^5.82.1"
   }
 }
