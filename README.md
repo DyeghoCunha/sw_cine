@@ -10,7 +10,7 @@ Projeto desenvolvido para fixar conteúdo das aulas de REACT.js
 
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://github.com/DyeghoCunha/myroom/blob/master/capaMYRoom.png#vitrinedev)
+![](https://github.com/DyeghoCunha/sw_cine/blob/master/sw-cineCover.png#vitrinedev)
 
 
 ## Star Wars Cine
