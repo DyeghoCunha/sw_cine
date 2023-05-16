@@ -1,4 +1,4 @@
-{ "videos":
+
 [
     {
         "id": 1,
@@ -116,8 +116,7 @@
         "titulo": "S.O.S.",
         "subtitulo": "Tem um Louco Solto no Espaço",
         "historia":"'S.O.S. Tem um Louco Solto no Espaço' é uma comédia de ficção científica que se passa no espaço sideral. O filme conta a história de um capitão espacial chamado Valérian e sua tripulação desajustada em uma missão intergaláctica.\n\nA trama se desenrola quando o presidente da Confederação Galáctica é sequestrado pelo vilão Zartog, um alienígena malévolo. Valérian e sua equipe são encarregados de resgatar o presidente e salvar a galáxia do controle de Zartog.\n\nNo entanto, a tripulação de Valérian não é composta pelos melhores e mais habilidosos astronautas. Cada membro da equipe tem características únicas e excêntricas, o que torna a missão ainda mais desafiadora e engraçada. Juntos, eles enfrentam situações hilariantes e embarcam em uma aventura cheia de perigos e confusões.\n\nDurante a jornada, Valérian e sua tripulação encontram alienígenas peculiares, enfrentam obstáculos inesperados e lidam com suas próprias diferenças pessoais. Eles aprendem a trabalhar em equipe, confiar uns nos outros e superar suas limitações para alcançar o objetivo final.\n\n'S.O.S. Tem um Louco Solto no Espaço' é uma comédia repleta de humor, piadas e momentos divertidos. É uma paródia do gênero espacial, com referências a filmes clássicos e clichês da ficção científica. O filme combina elementos de aventura espacial com situações cômicas, proporcionando entretenimento para o público de todas as idades.\n\nCom uma mistura de efeitos visuais extravagantes, personagens excêntricos e diálogos engraçados, 'S.O.S. Tem um Louco Solto no Espaço' oferece uma experiência divertida e leve. É uma ótima opção para quem busca uma comédia descompromissada e cheia de diversão no contexto do espaço sideral.",
-        "capa": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/assets/imagem/sw-cards/16.png",
+        "capa": "https://raw.githubusercontent.com/DyeghoCunha/sw_cine/master/src/assets/imagem/sw-cards/17.png",
         "link": "https://www.youtube.com/embed/RK0yd4LtLdg"
     }
 ]
-}
