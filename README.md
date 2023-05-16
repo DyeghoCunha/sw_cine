@@ -6,7 +6,7 @@ Projeto desenvolvido para fixar conteúdo das aulas de REACT.js
 | -------------  | --- |
 | :sparkles: Nome        | **Star Wars Cine**
 | :label: Tecnologias | React.Js, HTML5, SCSS.
-| :rocket: URL         | https://myroom-six.vercel.app
+| :rocket: URL         | https://star-wars-cine.vercel.app
 
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
