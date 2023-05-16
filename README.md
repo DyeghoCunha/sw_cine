@@ -15,7 +15,7 @@ Projeto desenvolvido para fixar conteúdo das aulas de REACT.js
 
 ## Star Wars Cine
 
-Exercicio proposto pela professora Moni Hillman
+Exercicio proposto pela professora Moni Hillman 
 
 
 
